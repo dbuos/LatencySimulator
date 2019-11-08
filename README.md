@@ -1,21 +1,14 @@
 # LatencySimulator
 
-**TODO: Add description**
+Elixir App to simulate custom latency in a scalable and efficient way.
 
-## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `latency_simulator` to your list of dependencies in `mix.exs`:
+## Usage 
 
-```elixir
-def deps do
-  [
-    {:latency_simulator, "~> 0.1.0"}
-  ]
-end
-```
+´´´
+iex -S mix
+´´´
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/latency_simulator](https://hexdocs.pm/latency_simulator).
+curl http://localhost:8080/wait/200
 
+Waits 200ms, then return a 200 OK HTTP Code.
