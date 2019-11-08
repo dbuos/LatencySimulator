@@ -5,9 +5,9 @@ Elixir App to simulate custom latency in a scalable and efficient way.
 
 ## Usage 
 
-´´´
+```bash
 iex -S mix
-´´´
+```
 
 curl http://localhost:8080/wait/200
 
